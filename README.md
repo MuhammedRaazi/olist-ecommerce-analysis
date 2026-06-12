@@ -150,7 +150,7 @@ to a real stakeholder.
 ## The Report
 
 📄 [View the Full PDF Report]
-(link coming soon)
+https://gamma.app/docs/Unlocking-Growth-at-Olist-An-End-to-End-Data-Analytics-Case-Study-o2z36yfuq7uqaxr
 
 A 12-page professional report covering all 
 findings, charts, and recommendations — 
