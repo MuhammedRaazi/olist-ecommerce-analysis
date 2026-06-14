@@ -138,7 +138,7 @@ olist-analysis/
 ## Video Walkthrough
 
 📹 [Watch me walk through the entire project]
-(link coming soon)
+https://www.loom.com/share/393b3f333bda44cb81c9c0db5ef4f2b1
 
 I recorded a full walkthrough where I explain 
 every finding, every decision, and every 
