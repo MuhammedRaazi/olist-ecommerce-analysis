@@ -27,6 +27,43 @@ surprised me.
 
 ---
 
+## Metrics Framework
+
+Before writing a single line of code, I defined 
+the metrics that actually matter for an e-commerce 
+business.
+
+**North Star Metric**
+> Monthly Revenue — the single number that tells 
+> if the business is healthy
+
+**Supporting Metrics Tracked**
+
+| Metric | What It Measures |
+|---|---|
+| Average Order Value (AOV) | Revenue quality per transaction |
+| Order Volume | Growth rate |
+| Customer Review Score | Satisfaction health |
+| Delivery Performance Rate | Operational health |
+| Revenue by Category | Product mix health |
+
+**Metrics I Identified But Couldn't Calculate**
+*(dataset limitations — no traffic, marketing spend, or COGS data)*
+
+| Metric | Why It Matters |
+|---|---|
+| Conversion Rate | % of visitors who purchase |
+| Customer Acquisition Cost (CAC) | Cost to get one customer |
+| Churn Rate | % of customers lost per period |
+| Retention Rate | % of customers who return |
+| Customer Lifetime Value (CLV) | Long term customer worth |
+| Net Profit Margin | True profitability |
+
+> The RFM clustering in this project serves as a 
+> proxy for retention and churn analysis.
+
+---
+
 ## What I Found
 
 After analyzing 96,478 delivered orders across 
@@ -65,28 +102,23 @@ opportunity in this dataset.
 
 ---
 
+## Recommendations
+
+| Priority | Action | Business Impact |
+|---|---|---|
+| 🔴 Urgent | Fix delivery SLA monitoring | Highest satisfaction ROI — 47% drop from one late order |
+| 🔴 Urgent | Quality review for bed_bath_table, computers, watches_gifts | R$3M+ revenue currently at risk |
+| 🟡 High | Win-back campaign for 37,526 lost customers | Known audience, personalized offers |
+| 🟡 High | Reactivate 2,418 Sleeping Giants | R$2.8M recovery potential at avg R$1,160 each |
+| 🟢 Medium | Focus on AOV growth — bundling and upselling | Convert volume growth into margin growth |
+
+---
+
 ## The Approach
 
 This is not a typical analysis where I loaded 
 data and plotted charts. I followed the exact 
 workflow a data analyst uses in a real job:
-
-Define    → What metrics matter? What are we solving?
-
-Analyze   → Calculate, join, slice, explore
-
-Visualize → Make the data speak
-
-Interpret → What does this actually mean?
-
-Recommend → What should the business do next?
-
-
-Every decision in this project has a reason.
-Every chart answers a specific business question.
-Every finding connects to a recommendation.
-
----
 
 ## Key Numbers
 
