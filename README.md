@@ -103,14 +103,14 @@ Every finding connects to a recommendation.
 
 ## Video Walkthrough
 
-📹 [Watch me walk through the entire project]
+📹 Watch me walk through the entire project
 https://www.loom.com/share/393b3f333bda44cb81c9c0db5ef4f2b1
 
 ---
 
 ## The Report
 
-📄 [View the Full PDF Report]
+📄 View the Full PDF Report
 https://gamma.app/docs/Unlocking-Growth-at-Olist-An-End-to-End-Data-Analytics-Case-Study-o2z36yfuq7uqaxr
 
 ---
