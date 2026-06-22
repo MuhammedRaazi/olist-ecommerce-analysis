@@ -101,49 +101,10 @@ Every finding connects to a recommendation.
 
 ---
 
-## Tools Used
-
-| Tool | Purpose |
-|---|---|
-| Python + Pandas | Data cleaning and analysis |
-| Matplotlib + Seaborn | Visualizations |
-| Scikit-learn | KMeans clustering |
-| Jupyter Notebook | Development environment |
-
----
-
-## Project Structure
-
-olist-analysis/
-
-│
-
-├── data/                          ← 9 CSV files (Kaggle)
-
-├── notebooks/
-
-│   ├── olist_growth_analysis.ipynb    ← Main analysis
-
-│   └── olist_rfm_clustering.ipynb     ← ML clustering
-
-├── charts/                        ← All 13 chart images
-
-├── report/                        ← Final PDF report
-
-└── README.md
-
-
----
-
 ## Video Walkthrough
 
 📹 [Watch me walk through the entire project]
 https://www.loom.com/share/393b3f333bda44cb81c9c0db5ef4f2b1
-
-I recorded a full walkthrough where I explain 
-every finding, every decision, and every 
-recommendation — the way I would present it 
-to a real stakeholder.
 
 ---
 
@@ -152,23 +113,4 @@ to a real stakeholder.
 📄 [View the Full PDF Report]
 https://gamma.app/docs/Unlocking-Growth-at-Olist-An-End-to-End-Data-Analytics-Case-Study-o2z36yfuq7uqaxr
 
-A 12-page professional report covering all 
-findings, charts, and recommendations — 
-formatted the way analysts present to leadership.
-
 ---
-
-## What I Learned
-
-Before this project, I knew the tools.
-After this project, I understand the thinking.
-
-That is the difference between someone who 
-can run code — and someone who can answer 
-a business question with data.
-
----
-
-*Dataset: Brazilian E-Commerce Public Dataset 
-by Olist — Kaggle*
-*Author: [Muhammed Raazi V]*
