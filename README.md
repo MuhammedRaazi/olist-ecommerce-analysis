@@ -27,6 +27,43 @@ surprised me.
 
 ---
 
+## Metrics Framework
+
+Before writing a single line of code, I defined 
+the metrics that actually matter for an e-commerce 
+business.
+
+**North Star Metric**
+> Monthly Revenue — the single number that tells 
+> if the business is healthy
+
+**Supporting Metrics Tracked**
+
+| Metric | What It Measures |
+|---|---|
+| Average Order Value (AOV) | Revenue quality per transaction |
+| Order Volume | Growth rate |
+| Customer Review Score | Satisfaction health |
+| Delivery Performance Rate | Operational health |
+| Revenue by Category | Product mix health |
+
+**Metrics I Identified But Couldn't Calculate**
+*(dataset limitations — no traffic, marketing spend, or COGS data)*
+
+| Metric | Why It Matters |
+|---|---|
+| Conversion Rate | % of visitors who purchase |
+| Customer Acquisition Cost (CAC) | Cost to get one customer |
+| Churn Rate | % of customers lost per period |
+| Retention Rate | % of customers who return |
+| Customer Lifetime Value (CLV) | Long term customer worth |
+| Net Profit Margin | True profitability |
+
+> The RFM clustering in this project serves as a 
+> proxy for retention and churn analysis.
+
+---
+
 ## What I Found
 
 After analyzing 96,478 delivered orders across 
@@ -65,28 +102,23 @@ opportunity in this dataset.
 
 ---
 
+## Recommendations
+
+| Priority | Action | Business Impact |
+|---|---|---|
+| 🔴 Urgent | Fix delivery SLA monitoring | Highest satisfaction ROI — 47% drop from one late order |
+| 🔴 Urgent | Quality review for bed_bath_table, computers, watches_gifts | R$3M+ revenue currently at risk |
+| 🟡 High | Win-back campaign for 37,526 lost customers | Known audience, personalized offers |
+| 🟡 High | Reactivate 2,418 Sleeping Giants | R$2.8M recovery potential at avg R$1,160 each |
+| 🟢 Medium | Focus on AOV growth — bundling and upselling | Convert volume growth into margin growth |
+
+---
+
 ## The Approach
 
 This is not a typical analysis where I loaded 
 data and plotted charts. I followed the exact 
 workflow a data analyst uses in a real job:
-
-Define    → What metrics matter? What are we solving?
-
-Analyze   → Calculate, join, slice, explore
-
-Visualize → Make the data speak
-
-Interpret → What does this actually mean?
-
-Recommend → What should the business do next?
-
-
-Every decision in this project has a reason.
-Every chart answers a specific business question.
-Every finding connects to a recommendation.
-
----
 
 ## Key Numbers
 
@@ -101,74 +133,16 @@ Every finding connects to a recommendation.
 
 ---
 
-## Tools Used
-
-| Tool | Purpose |
-|---|---|
-| Python + Pandas | Data cleaning and analysis |
-| Matplotlib + Seaborn | Visualizations |
-| Scikit-learn | KMeans clustering |
-| Jupyter Notebook | Development environment |
-
----
-
-## Project Structure
-
-olist-analysis/
-
-│
-
-├── data/                          ← 9 CSV files (Kaggle)
-
-├── notebooks/
-
-│   ├── olist_growth_analysis.ipynb    ← Main analysis
-
-│   └── olist_rfm_clustering.ipynb     ← ML clustering
-
-├── charts/                        ← All 13 chart images
-
-├── report/                        ← Final PDF report
-
-└── README.md
-
-
----
-
 ## Video Walkthrough
 
-📹 [Watch me walk through the entire project]
-(link coming soon)
-
-I recorded a full walkthrough where I explain 
-every finding, every decision, and every 
-recommendation — the way I would present it 
-to a real stakeholder.
+📹 Watch me walk through the entire project
+https://www.loom.com/share/393b3f333bda44cb81c9c0db5ef4f2b1
 
 ---
 
 ## The Report
 
-📄 [View the Full PDF Report]
-(link coming soon)
-
-A 12-page professional report covering all 
-findings, charts, and recommendations — 
-formatted the way analysts present to leadership.
+📄 View the Full PDF Report
+https://gamma.app/docs/Unlocking-Growth-at-Olist-An-End-to-End-Data-Analytics-Case-Study-o2z36yfuq7uqaxr
 
 ---
-
-## What I Learned
-
-Before this project, I knew the tools.
-After this project, I understand the thinking.
-
-That is the difference between someone who 
-can run code — and someone who can answer 
-a business question with data.
-
----
-
-*Dataset: Brazilian E-Commerce Public Dataset 
-by Olist — Kaggle*
-*Author: [Muhammed Raazi V]*
